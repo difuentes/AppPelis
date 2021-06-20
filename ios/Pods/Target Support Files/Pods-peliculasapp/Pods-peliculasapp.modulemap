@@ -1,0 +1,6 @@
+module Pods_peliculasapp {
+  umbrella header "Pods-peliculasapp-umbrella.h"
+
+  export *
+  module * { export * }
+}
