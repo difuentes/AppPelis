@@ -35,9 +35,10 @@ export const CastItem = ({actor}:Props) => {
 const styles = StyleSheet.create({
     container:{
         flexDirection:'row',
-        marginTop:5,
+        marginTop:10,
         marginBottom:2,
         marginRight:10,
+        marginLeft:5,
         backgroundColor:'white',
         borderRadius:20,
         shadowOffset: {
@@ -47,6 +48,7 @@ const styles = StyleSheet.create({
          shadowOpacity: 0.39,
          shadowRadius: 5.30,
          elevation: 13,
+         height:54
     },
     actorInfo:{
         marginLeft:10,

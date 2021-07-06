@@ -48,7 +48,7 @@ export const MovieDetails = ({movieFull,cast}:Props) => {
            <View style={{marginTop:0, marginBottom:100}}>
                 <Text style={{fontSize:20,fontWeight:'bold',marginTop:5}}>Actores</Text>
                
-                <FlatList style={{height:60}} showsHorizontalScrollIndicator={false} horizontal={true} renderItem={({item}) => <CastItem actor={item}/>} data={cast} keyExtractor={(item)=>item.id.toString()}/>
+                <FlatList style={{height:70}} showsHorizontalScrollIndicator={false} horizontal={true} renderItem={({item}) => <CastItem actor={item}/>} data={cast} keyExtractor={(item)=>item.id.toString()}/>
            </View>
            
        </>
